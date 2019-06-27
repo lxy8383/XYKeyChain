@@ -15,6 +15,7 @@
 		5088EE9522C4D2A600FD9EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088EE9422C4D2A600FD9EAB /* main.m */; };
 		5088EE9F22C4D2A600FD9EAB /* XYKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088EE9E22C4D2A600FD9EAB /* XYKeychainTests.m */; };
 		5088EEAA22C4D2A600FD9EAB /* XYKeychainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088EEA922C4D2A600FD9EAB /* XYKeychainUITests.m */; };
+		5088EEBA22C4D2C900FD9EAB /* YSKeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5088EEB922C4D2C900FD9EAB /* YSKeychainHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5088EEA522C4D2A600FD9EAB /* XYKeychainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYKeychainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5088EEA922C4D2A600FD9EAB /* XYKeychainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYKeychainUITests.m; sourceTree = "<group>"; };
 		5088EEAB22C4D2A600FD9EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5088EEB822C4D2C900FD9EAB /* YSKeychainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKeychainHelper.h; sourceTree = "<group>"; };
+		5088EEB922C4D2C900FD9EAB /* YSKeychainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKeychainHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5088EE8422C4D2A400FD9EAB /* XYKeychain */ = {
 			isa = PBXGroup;
 			children = (
+				5088EEB722C4D2C900FD9EAB /* YSKeychainHelper */,
 				5088EE8522C4D2A400FD9EAB /* AppDelegate.h */,
 				5088EE8622C4D2A400FD9EAB /* AppDelegate.m */,
 				5088EE8822C4D2A400FD9EAB /* ViewController.h */,
@@ -130,6 +134,15 @@
 				5088EEAB22C4D2A600FD9EAB /* Info.plist */,
 			);
 			path = XYKeychainUITests;
+			sourceTree = "<group>";
+		};
+		5088EEB722C4D2C900FD9EAB /* YSKeychainHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5088EEB822C4D2C900FD9EAB /* YSKeychainHelper.h */,
+				5088EEB922C4D2C900FD9EAB /* YSKeychainHelper.m */,
+			);
+			path = YSKeychainHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5088EE8A22C4D2A400FD9EAB /* ViewController.m in Sources */,
+				5088EEBA22C4D2C900FD9EAB /* YSKeychainHelper.m in Sources */,
 				5088EE9522C4D2A600FD9EAB /* main.m in Sources */,
 				5088EE8722C4D2A400FD9EAB /* AppDelegate.m in Sources */,
 			);
